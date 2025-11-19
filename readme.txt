@@ -11,10 +11,11 @@ Before starting, prepare the following data files:
 
 3. Processing Workflow
 To reconstruct images using MATLAB, follow these steps:
-(1) Start MATLAB.
-(2) Open and run the script SLIM.m.
-(3) When prompted, select the target .sdt file for processing.
-(4) The script will generate the final super-resolution fluorescence lifetime image as: SLIM_image.tif.
+(1) Download the bfmatlab.zip toolkit from https://www.openmicroscopy.org/bio-formats/downloads/, unzip it, and place the bfmatlab folder in the code directory.
+(2) Start MATLAB.
+(3) Open and run the script SLIM.m.
+(4) When prompted, select the target .sdt file for processing.
+(5) The script will generate the final super-resolution fluorescence lifetime image as: SLIM_image.tif.
 
 4. Parameter Configuration
 To ensure optimal results, configure the following key parameters in the code:
@@ -27,4 +28,5 @@ For a complete walkthrough using the provided example data:
 (1) Run SLIM.m in MATLAB, ensuring the pulse_interval and SCD_Factor are properly set, along with a suitable lifetime display threshold.
 (2) Select the target .sdt file when prompted.
 (3) The final output, SLIM_image.tif, will be generated, which integrates the super-resolved intensity with quantitative lifetime information.
+
 
